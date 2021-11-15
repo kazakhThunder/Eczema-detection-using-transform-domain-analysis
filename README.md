@@ -1,4 +1,4 @@
-# Eczema-detection-using-transform-domain-analysis
+# Eczema detection using transform domain analysis
 
 We aim to create a system to detect eczema in human skin. Diagnosis of skin diseases is complex and carries a financial cost, while mobile phones have penetrated the most rural of places. We propose to use transform domain analysis to achieve our goal.
 
