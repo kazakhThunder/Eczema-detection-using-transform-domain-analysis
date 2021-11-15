@@ -1,6 +1,8 @@
 # Eczema-detection-using-transform-domain-analysis
 
 We aim to create a system to detect eczema in human skin. Diagnosis of skin diseases is complex and carries a financial cost, while mobile phones have penetrated the most rural of places. We propose to use transform domain analysis to achieve our goal.
+
+
 For our dataset, a 25X25 cross-section of each of the images is taken focused on the area of interest and converted into grayscale.
 We start by finding the 2D wavelet transform for each image and take the LL sub-band discarding the remaining coefficients. We then calculate the GLCM to extract our features. After we create the GLCMs, several features can be derived from them using predefined formulae.
 The features taken are: energy, contrast, dissimilarity, homogeneity, correlation, angular second moment and entropy. 
